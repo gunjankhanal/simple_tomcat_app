@@ -17,6 +17,6 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: nodejs-clone-app
-        image: gunjankhanal/mavenproject:42      
+        image: gunjankhanal/mavenproject:43      
         ports:
         - containerPort: 8080
