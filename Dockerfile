@@ -23,11 +23,11 @@ CMD ["catalina.sh", "run"]
 
 # Install Maven, build the WAR, and deploy it to Tomcat
 #RUN apt-get update && apt-get install -y maven && \
-    mvn clean package && \
-    cp *.war /usr/local/tomcat/webapps/ && \
-    apt-get remove -y maven && \
-    apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/*
+#    mvn clean package && \
+#    cp *.war /usr/local/tomcat/webapps/ && \
+#    apt-get remove -y maven && \
+#    apt-get autoremove -y && \
+#    rm -rf /var/lib/apt/lists/*
 
 # Expose Tomcat port
 #EXPOSE 8080
